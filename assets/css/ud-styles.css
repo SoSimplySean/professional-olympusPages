@@ -1153,11 +1153,17 @@ p {
   margin-bottom: 25px;
 }
 
-.ud-single-testimonial .ud-testimonial-content p {
+.ud-single-testimonial .ud-testimonial-content img {
+  object-fit: cover;
+  height: 200px;
+  width: auto;
+}
+
+/* .ud-single-testimonial .ud-testimonial-content p {
   font-size: 16px;
   line-height: 30px;
   color: #637381;
-}
+} */
 
 .ud-single-testimonial .ud-testimonial-info {
   display: -webkit-box;
